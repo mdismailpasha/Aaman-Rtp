@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 public class Dao 
 {
 	public static void main(String[] args) throws Exception
-	{
+	{int j=30;
 		int 1=10;Class<?> clz = Class.forName("com.ashokit.User");
 		Field field = clz.getDeclaredField("age");
 		field.setAccessible(true);
